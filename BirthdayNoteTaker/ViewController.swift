@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         
        @IBAction func SaveClicked(_ sender: Any) {
             
-            UserDefaults.standard.set(NameField.text!, forKey: "handan" ) //veri tabanına kaydetmek için
+            UserDefaults.standard.set(NameField.text!, forKey: "name" ) //veri tabanına kaydetmek için
             
             UserDefaults.standard.set(BdField.text!, forKey: "birthday")
             
